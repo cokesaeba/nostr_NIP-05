@@ -1,0 +1,17 @@
+{
+  "names": {
+    "sec_adviser": "bdf7faf016c2f806e79942358b32cba4508b6cf592184d55f9f4022d3cf4e81e",
+    "carmen": "3ab36865a1cf8bbf255abd6cd9ecca58d62a64d75986beaef83e273af13f9bf4"
+  },
+  "relays": {
+	  "bdf7faf016c2f806e79942358b32cba4508b6cf592184d55f9f4022d3cf4e81e": [
+		  "wss://relay.damus.io",
+		  "wss://relay.current.fyi",
+		  "wss://brb.io",
+		  "wss://relay.snort.social",
+		  "wss://nostr.orangepill.dev",
+		  "wss://nos.lol",
+		  "wss://eden.nostr.land"
+	  ]
+  }
+}
