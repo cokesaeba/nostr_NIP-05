@@ -29,6 +29,12 @@ if data.names[name] then
        -- Buscamos los relays asociados a la clave pública
        local relays = data.relays[public_key]
 
+       -- si no hay relays solo imprimimos el nombre y la clave pública
+       if relays == nil then
+              print(cjson.encode({names = {[name] = public_key}}))
+              return
+       end
+
        -- codificamos a JSON los datos correspondientes
        -- local str_result = cjson.encode({names = {[name] = public_key}, relays = {[public_key] = relays}})
 
